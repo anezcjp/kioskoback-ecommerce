@@ -1,0 +1,55 @@
+
+
+
+///////Insert Products Database///////
+
+SELECT * FROM test.product;
+
+INSERT INTO test.products (name, description, price)
+VALUES
+  ('Rice', 'Fast cooking rice', 19.99),
+  ('Milk', 'Cool milk', 39.99),
+  ('Bread', 'Whole wheat bread', 3.99),
+  ('Bananas', 'Fresh bananas', 0.99),
+  ('Chicken', 'Boneless chicken breast', 9.99),
+  ('Tomatoes', 'Vine-ripened tomatoes', 2.49),
+  ('Potatoes', 'Red potatoes', 1.99),
+  ('Salmon', 'Wild-caught salmon fillet', 14.99),
+  ('Spinach', 'Fresh baby spinach', 4.99),
+  ('Oranges', 'Juicy oranges', 1.49),
+  ('Apples', 'Crisp red apples', 1.29),
+  ('Pasta', 'Whole grain pasta', 2.99),
+  ('Eggs', 'Farm-fresh eggs', 2.49),
+  ('Cheese', 'Cheddar cheese block', 5.99),
+  ('Coffee', 'Ground coffee beans', 8.99),
+  ('Tea', 'Green tea bags', 4.49),
+  ('Toothpaste', 'Minty toothpaste', 2.29),
+  ('Shampoo', 'Gentle shampoo', 6.99),
+  ('Soap', 'Fragrance-free soap', 1.99),
+  ('Toilet Paper', 'Soft toilet paper', 7.49),
+  ('Towels', 'Cotton bath towels', 12.99),
+  ('Dish Soap', 'Lemon-scented dish soap', 3.49),
+  ('Socks', 'Cotton socks (3 pairs)', 9.99),
+  ('Shoes', 'Running shoes', 29.99),
+  ('Laptop', '15-inch laptop', 799.99),
+  ('Phone', 'Smartphone', 499.99),
+  ('Headphones', 'Wireless headphones', 129.99),
+  ('TV', '55-inch 4K TV', 599.99),
+  ('Tablet', '10-inch tablet', 249.99),
+  ('Backpack', 'Canvas backpack', 24.99),
+  ('Chair', 'Comfortable office chair', 89.99),
+  ('Desk', 'Wooden desk', 129.99),
+  ('Printer', 'All-in-one printer', 79.99),
+  ('Guitar', 'Acoustic guitar', 199.99),
+  ('Piano', 'Digital piano', 499.99),
+  ('Microwave', 'Microwave oven', 79.99),
+  ('Blender', 'High-speed blender', 59.99),
+  ('Vacuum', 'Cordless vacuum cleaner', 149.99),
+  ('Fan', 'Oscillating tower fan', 39.99),
+  ('Sunglasses', 'Polarized sunglasses', 29.99),
+  ('Backpack', 'Hiking backpack', 49.99),
+  ('Tent', '4-person camping tent', 89.99),
+  ('Sleeping Bag', 'Warm sleeping bag', 34.99),
+  ('Fishing Rod', 'Fishing rod and reel', 59.99),
+  ('Bike', 'Mountain bike', 299.99),
+  ('Helmet', 'Bike helmet', 19.99);
